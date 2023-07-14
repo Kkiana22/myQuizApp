@@ -11,6 +11,8 @@
 		BDA879762A61BDCB007788DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA879752A61BDCB007788DC /* ContentView.swift */; };
 		BDA879782A61BDCC007788DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA879772A61BDCC007788DC /* Assets.xcassets */; };
 		BDA8797B2A61BDCC007788DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA8797A2A61BDCC007788DC /* Preview Assets.xcassets */; };
+		BDA879822A61BE78007788DC /* firstQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA879812A61BE78007788DC /* firstQuestion.swift */; };
+		BDA879842A61CE80007788DC /* secondQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA879832A61CE80007788DC /* secondQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BDA879752A61BDCB007788DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDA879772A61BDCC007788DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA8797A2A61BDCC007788DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDA879812A61BE78007788DC /* firstQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstQuestion.swift; sourceTree = "<group>"; };
+		BDA879832A61CE80007788DC /* secondQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BDA879732A61BDCB007788DC /* myQuizAppApp.swift */,
 				BDA879752A61BDCB007788DC /* ContentView.swift */,
+				BDA879812A61BE78007788DC /* firstQuestion.swift */,
+				BDA879832A61CE80007788DC /* secondQuestion.swift */,
 				BDA879772A61BDCC007788DC /* Assets.xcassets */,
 				BDA879792A61BDCC007788DC /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA879762A61BDCB007788DC /* ContentView.swift in Sources */,
+				BDA879822A61BE78007788DC /* firstQuestion.swift in Sources */,
 				BDA879742A61BDCB007788DC /* myQuizAppApp.swift in Sources */,
+				BDA879842A61CE80007788DC /* secondQuestion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
